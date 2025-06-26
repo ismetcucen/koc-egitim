@@ -39,7 +39,12 @@ if secim == "Haftalık Plan":
         st.session_state["haftalik_program"] = pd.DataFrame("", index=saatler, columns=gunler)
 
     st.markdown("### Ders Programını Düzenleyin")
-    df = st.experimental_data_editor(st.session_state["haftalik_program"], num_rows="dynamic")
+    # Eski hali:
+# df = st.experimental_data_editor(st.session_state["haftalik_program"], num_rows="dynamic")
+
+# Yeni hali (num_rows parametresini kaldırdık):
+df = st.experimental_data_editor(st.session_state["haftalik_program"])
+
     st.session_state["haftalik_program"] = df
 
 elif secim == "Deneme Takibi":
