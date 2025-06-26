@@ -45,7 +45,7 @@ if secim == "Haftalık Plan":
 # Yeni hali (num_rows parametresini kaldırdık):
 df = st.experimental_data_editor(st.session_state["haftalik_program"])
 
-    st.session_state["haftalik_program"] = df
+st.session_state["haftalik_program"] = df
 
 elif secim == "Deneme Takibi":
     st.header("📝 Deneme Sınavı Girişi")
