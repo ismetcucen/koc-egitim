@@ -40,7 +40,7 @@ if secim == "Haftalık Plan":
 
     st.markdown("### Ders Programını Düzenleyin")
     
-    df = st.experimental_data_editor(st.session_state["haftalik_program"])
+    df = st.data_editor(st.session_state["haftalik_program"])
 
     st.session_state["haftalik_program"] = df
 
