@@ -39,9 +39,7 @@ if secim == "Haftalık Plan":
         st.session_state["haftalik_program"] = pd.DataFrame("", index=saatler, columns=gunler)
 
     st.markdown("### Ders Programını Düzenleyin")
-    
-    df = st.data_editor(st.session_state["haftalik_program"])
-
+    df = st.data_editor(st.session_state["haftalik_program"], num_rows="dynamic")
     st.session_state["haftalik_program"] = df
 
 elif secim == "Deneme Takibi":
@@ -73,71 +71,29 @@ elif secim == "Deneme Takibi":
 elif secim == "Ödev Takibi":
     st.header("📦 Ödev Takip")
 
-    ders = st.selectbox("Ders Seç", list(ders_konular.keys()))
-    odev = st.text_input("Ödev Açıklaması")
-    tarih = st.date_input("Teslim Tarihi", value=datetime.today())
-    yapildi = st.checkbox("Yapıldı mı?")
+import streamlit as st
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
 
-    if "odevler" not in st.session_state:
-        st.session_state["odevler"] = []
+# Yetkilendirme
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
+creds = ServiceAccountCredentials.from_json_keyfile_name("service_account.json", scope)
+client = gspread.authorize(creds)
 
-    if st.button("➕ Ödev Kaydet"):
-        st.session_state["odevler"].append({
-            "Ders": ders,
-            "Ödev": odev,
-            "Teslim Tarihi": tarih,
-            "Durum": "Tamamlandı" if yapildi else "Bekliyor"
-        })
-        st.success("Ödev eklendi!")
+# Google Sheet dosyasına bağlan
+sheet = client.open("ogrenci_takip").sheet1
 
-    if st.session_state["odevler"]:
-        df_odev = pd.DataFrame(st.session_state["odevler"])
-        st.dataframe(df_odev)
+# Streamlit arayüzü
+st.title("🧑‍🎓 Öğrenci Not Takip Sistemi")
 
-elif secim == "Güncel Konu Takibi":
-    st.header("📚 Güncel Konu Takibi")
+isim = st.text_input("Öğrenci Adı")
+ders = st.text_input("Ders Adı")
+notu = st.text_input("Notu")
 
-    kaynaklar = st.session_state["kaynaklar"]
-    with st.expander("Kaynak İsimlerini Düzenle"):
-        for i in range(3):
-            kaynaklar[i] = st.text_input(f"{i+1}. Kaynak Adı", kaynaklar[i])
-        st.session_state["kaynaklar"] = kaynaklar
-
-    if "konu_takip" not in st.session_state:
-        st.session_state["konu_takip"] = {
-            ders: {konu: [False, False, False] for konu in konular}
-            for ders, konular in ders_konular.items()
-        }
-
-    for ders, konular in ders_konular.items():
-        st.subheader(ders)
-        cols = st.columns([4,1,1,1])
-        cols[0].markdown("**Konu**")
-        for i, kay in enumerate(kaynaklar):
-            cols[i+1].markdown(f"**{kay}**")
-
-        for konu in konular:
-            cols = st.columns([4,1,1,1])
-            cols[0].write(konu)
-            for i in range(3):
-                chk = cols[i+1].checkbox("", value=st.session_state["konu_takip"][ders][konu][i], key=f"{ders}_{konu}_{i}")
-                st.session_state["konu_takip"][ders][konu][i] = chk
-
-elif secim == "Grafikler":
-    st.header("📊 Deneme Net Gelişimi")
-    if "denemeler" in st.session_state and st.session_state["denemeler"]:
-        df = pd.DataFrame(st.session_state["denemeler"])
-        df = df.sort_values("Tarih")
-        plt.figure(figsize=(10, 5))
-        plt.plot(df["Tarih"], df["Net"], marker="o")
-        plt.title("Deneme Net Gelişimi")
-        plt.xlabel("Tarih")
-        plt.ylabel("Net")
-        plt.grid(True)
-        st.pyplot(plt)
+if st.button("✅ Kaydet"):
+    if isim and ders and notu:
+        sheet.append_row([isim, ders, notu])
+        st.success("✅ Veri Google Sheets'e kaydedildi!")
     else:
-        st.info("Henüz deneme verisi girilmedi.")
-
-# Alt bilgi
-st.markdown("""<hr><center>İsmet Çüçen tarafından oluşturuldu</center>""", unsafe_allow_html=True)
+        st.warning("Lütfen tüm alanları doldurun.")
 
