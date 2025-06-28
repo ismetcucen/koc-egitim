@@ -1,0 +1,538 @@
+{
+  "weekly_plan_table": {
+    "08:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {
+        "ders": "Fizik",
+        "konu": "Hareket",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "09:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "10:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "11:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "12:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "13:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "14:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "15:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "16:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {},
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "17:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "18:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "19:00": {
+      "Pazartesi": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "20:00": {
+      "Pazartesi": {
+        "ders": "Fizik",
+        "konu": "Hareket",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "21:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "22:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    },
+    "23:00": {
+      "Pazartesi": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Salı": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Çarşamba": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cumartesi": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Pazar": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      }
+    },
+    "24:00": {
+      "Pazartesi": {},
+      "Salı": {},
+      "Çarşamba": {},
+      "Perşembe": {
+        "ders": "Matematik",
+        "konu": "Fonksiyonlar",
+        "soru_tipi": "",
+        "soru_adedi": "",
+        "youtube": "",
+        "kaynak": ""
+      },
+      "Cuma": {},
+      "Cumartesi": {},
+      "Pazar": {}
+    }
+  },
+  "konu_takip": {
+    "Matematik": {
+      "Fonksiyonlar": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Kümeler": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Denklemler": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ]
+    },
+    "Türkçe": {
+      "Paragraf": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Dil Bilgisi": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Cümle Anlamı": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ]
+    },
+    "Fizik": {
+      "Hareket": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Kuvvet": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Enerji": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ]
+    },
+    "Geometri": {
+      "Üçgenler": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Dörtgenler": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ],
+      "Çember": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ]
+    },
+    "Coğrafya": {
+      "r": [
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        },
+        {
+          "ad": "",
+          "tik": false
+        }
+      ]
+    }
+  },
+  "DERSLER": {
+    "Matematik": [
+      "Fonksiyonlar",
+      "Kümeler",
+      "Denklemler"
+    ],
+    "Türkçe": [
+      "Paragraf",
+      "Dil Bilgisi",
+      "Cümle Anlamı"
+    ],
+    "Fizik": [
+      "Hareket",
+      "Kuvvet",
+      "Enerji"
+    ],
+    "Geometri": [
+      "Üçgenler",
+      "Dörtgenler",
+      "Çember"
+    ],
+    "Coğrafya": [
+      "r"
+    ]
+  },
+  "program_info": {
+    "adsoyad": "ismet çüçen",
+    "tarih": "2025-06-04"
+  },
+  "deneme_sinavlari": [
+    {
+      "tur": "TYT",
+      "ad": "toprak",
+      "tarih": "2025-05-29",
+      "net": 33.0,
+      "puan": 333.0
+    },
+    {
+      "tur": "TYT",
+      "ad": "toprak",
+      "tarih": "2025-05-29",
+      "net": 33.0,
+      "puan": 333.0
+    }
+  ],
+  "kaynaklar": {
+    "Coğrafya": {
+      "bes": {
+        "tur": "orta",
+        "aciklama": "",
+        "link": ""
+      }
+    }
+  }
+}
